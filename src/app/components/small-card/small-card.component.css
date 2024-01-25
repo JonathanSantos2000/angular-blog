@@ -1,0 +1,22 @@
+.conteiner__small-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner__small-card-content {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+}
+
+.conteiner__small-card>hr {
+  margin: 10px 0;
+}
+
+.small-card__photo>img {
+  width: 200px;
+  min-width: 200px;
+  height: 130px;
+  margin-right: 20px;
+}
