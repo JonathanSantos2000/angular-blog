@@ -1,20 +1,13 @@
 <div class="conteiner__big-card">
-  <div class="big-card__photo">
-    <img src="../../../assets/imgs/big-news.png" alt="" />
-  </div>
-  <div class="big-card__date">25 de março de 2024</div>
-  <div class="big-card__title">
-    <a href="#">
-      Descoberta surpreendente no fundo do oceano: Cientistas encontram cidade
-      submersa de civilização antiga
-    </a>
-  </div>
-  <div class="big-card__description">
-    Uma expedição científica liderada pela renomada oceanógrafa Dra. Marina
-    Santos revelou a descoberta de uma cidade submersa no fundo do oceano. Os
-    pesquisadores acreditam que a cidade pode ser uma antiga civilização
-    desconhecida, desafiando as teorias previamente aceitas sobre o
-    desenvolvimento humano.
-  </div>
-  <div class="big-card__autor">Dra. Marina Santos</div>
+  <a [routerLink]="['content/', id]">
+    <div class="big-card__photo">
+      <img src="{{ photoCover }}" alt="" />
+    </div>
+    <div class="big-card__date">{{ cardDate }}</div>
+    <div class="big-card__title">
+      <h1>{{ cardTitle }}</h1>
+    </div>
+    <div class="big-card__description">{{ cardDescription }}</div>
+    <div class="big-card__autor">{{ cardAutor }}</div>
+  </a>
 </div>

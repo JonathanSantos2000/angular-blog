@@ -1,25 +1,24 @@
 <div class="conteiner__small-card">
-  <div class="conteiner__small-card-content">
-    <div class="small-card__photo">
-      <img
-        src="https://agenciagov.ebc.com.br/noticias/202309/autorizada-ampliacao-dos-prazos-de-validade-das-vacinas-comirnaty-pfizer-monovalente-e-bivalente/@@download/image/RAMIRO-SIENRA-_blog-mini-662x480.jpg"
-        alt=""
-      />
-    </div>
-    <div class="small-card__conteiner-text">
-      <div class="small-card__date">
-        <p>10 de abril de 2024</p>
+  <a [routerLink]="['content/', id]">
+    <div class="conteiner__small-card-content">
+      <div class="small-card__photo">
+        <img src="{{ photoCover }}" alt="" />
       </div>
-      <div class="small-card__title">
-        <p>
-          Reviravolta na medicina: Pesquisadores brasileiros desenvolvem vacina
-          universal contra gripe
-        </p>
-      </div>
-      <div class="small-card__autor">
-        <p>Prof. Carlos Oliveira</p>
+      <div class="small-card__conteiner-text">
+        <div class="small-card__date">
+          <p>{{ cardDate }}</p>
+        </div>
+        <div class="small-card__title">
+          <p>
+            {{ cardTitle }}
+          </p>
+        </div>
+        <div class="small-card__autor">
+          <p>{{ cardAutor }}</p>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
   <hr />
+  <!-- -->
 </div>

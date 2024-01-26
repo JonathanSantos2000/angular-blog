@@ -1,0 +1,44 @@
+.conteiner__content {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__title, .content__cover, .content_article {
+  width: 85%;
+}
+
+.content__title>h1 {
+  font-size: 35px;
+  margin: 15px 0 0;
+}
+
+.content__cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__cover>img {
+  width: 100%;
+  height: 512px;
+  border-radius: 15px;
+  margin: 50px 0;
+}
+
+.content_article {
+  display: flex;
+}
+
+.content__autor {
+  width: 1000px;
+}
+
+.content__descripton>h2{
+  font-size: 25px;
+}
+
+.content__descripton>p{
+  margin: 15px 0;
+}

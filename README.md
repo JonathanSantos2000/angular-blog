@@ -1,5 +1,19 @@
 # AngularBlog
 
+## Olá, visitantes do projeto
+
+Gostaríamos de esclarecer que as notícias apresentadas neste projeto são fictícias e foram criadas com propósito meramente ilustrativo. Elas não correspondem a eventos reais e foram desenvolvidas para demonstrar a capacidade de gerar conteúdo variado. Agradecemos sua compreensão e esperamos que você aproveite a exploração das possibilidades criativas deste projeto.
+
+Atenciosamente,
+Jonathan Costa
+
+## Hello, project visitors
+
+We would like to clarify that the news presented in this project are fictional and have been created for illustrative purposes only. They do not correspond to real events and were developed to showcase the ability to generate diverse content. We appreciate your understanding and hope you enjoy exploring the creative possibilities of this project.
+
+Sincerely,
+Jonathan Costa
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
